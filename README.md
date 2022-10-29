@@ -16,20 +16,11 @@ zmienne ustawione dla kontenerów dockera są zapisane w pliku docker.sh
 
 # Uruchamianie
 
+- W lokalizacji ```site/``` tworzymy plik konfiguracyjny ```.env``` dla własnych zmiennych środowiskowych,
 
-W lokalizacji ```site/``` instalujemy zależności composera ```composer install```
+- W lokalizacji ```site/``` instalujemy zależności composera ```composer install```
 
-W głównej lokalizacji projektu uruchamiamy polecenia:
-
-```
-sh ./docker-start.sh
-```
-
-Zatrzymanie projektu
-
-```
-sh ./docker-stop.sh
-```
+- W głównej lokalizacji projektu uruchamiamy projekt ```sh ./docker-start.sh``` lub zatrzymujemy projekt ```sh ./docker-stop.sh```
 
 
 
